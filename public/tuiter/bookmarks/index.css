@@ -1,0 +1,96 @@
+.wd-bm-border {
+    border: 1px solid lightgray;
+}
+
+.wd-container-bm{
+    display: flex;
+}
+
+.wd-margin-top-12 {
+    margin-top: 12px;
+}
+
+.wd-margin-bottom-12 {
+    margin-bottom: 12px;
+}
+
+.wd-bm-title{
+    font-size: 20px;
+    color: white;
+}
+
+.wd-bm-handle{
+    font-size: 13px;
+    color: lightgray;
+}
+
+.wd-bm-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-margin-left-12 {
+    margin-left: 12px;
+}
+
+.wd-width {
+    max-width: 506px;
+}
+
+.wd-font-size-15 {
+    font-size: 15px;
+}
+
+.wd-fg-white {
+    color: white;
+}
+
+.wd-fg-lightgrey {
+    color: lightgray;
+}
+
+.wd-bm-imageframe{
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid lightgray;
+}
+
+.wd-bm-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.wd-bm-link {
+    width: 504px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid lightgray;
+}
+
+.wd-bm-padding-12{
+    padding: 12px;
+}
+
+.wd-table{
+    height: 25px;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.wd-font-none-dec {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.wd-icon{
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+}
