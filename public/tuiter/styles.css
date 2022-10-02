@@ -18,6 +18,10 @@
     float: left;
 }
 
+.wd-float-right{
+    float: right;
+}
+
 .wd-clear{
     clear: both;
 }
