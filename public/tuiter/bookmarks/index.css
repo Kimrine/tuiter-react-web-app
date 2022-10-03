@@ -4,6 +4,34 @@
 
 .wd-container-bm{
     display: flex;
+    flex-direction: column;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    margin: 0% 29.5% 0% 29.5%;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+
+.wd-container-bm-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-container-bm-post{
+    border-bottom:  1px solid lightgray;
+}
+
+.wd-width-90 {
+    width: 90%;
 }
 
 .wd-margin-top-12 {
