@@ -2,23 +2,11 @@ body {
     font-size: 14px;
 }
 
-
 .wd-tuiter {
     display: flex;
     margin:auto;
 }
 
-.wd-tuiter .wd-left-column{
-    padding: 10px;
-}
-
-.wd-tuiter .wd-center-column{
-    padding: 10px;
-}
-
-.wd-tuiter .wd-right-column{
-    padding: 10px;
-}
 .wd-nav{
     font-size: 16px;
 }
@@ -34,10 +22,6 @@ body {
 .input-group-text{
     background-color: white;
     border: 0px;
-}
-
-.wd-nowrap {
-    white-space: nowrap;
 }
 
 .list-group-item.override-bs{
@@ -171,153 +155,101 @@ body {
     float: left;
 }
 
-.wd-margin-left12{
-    margin-left: 12px;
+.wd-post-list{
+    margin-bottom: 2em;
+}
+
+.wd-post-item img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.wd-post-item > div {
+    width: 100%;
+    margin-right: 1em;
+}
+
+.wd-post-profileImg {
+    margin: 0 1em;
+    width: 4em;
+    height: 4em;
+    border-radius: 2em;
+}
+
+.wd-post-title{
+    font-size: 20px;
+    color: white;
+}
+
+.wd-post-handle{
+    font-size: 13px;
+    color: gray;
+}
+
+.wd-post-author {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
 }
 
 
-@media only screen and
-(min-width: 1400px)  {
-    .wd-tuiter {
-        width: 1450px;
-    }
-
-    .wd-tuiter
-    .wd-left-column {
-        width: 250px;
-    }
-
-    .wd-tuiter
-    .wd-center-column {
-        width: 675px;
-    }
-
-    .wd-tuiter
-    .wd-right-column {
-        width: 400px;
-    }
+.wd-fg-white {
+    color: white;
 }
 
-@media only screen and
-(min-width: 1200px) and (max-width: 1399px)  {
-    .wd-tuiter {
-        width: 1250px;
-    }
-
-    .wd-tuiter
-    .wd-left-column {
-        width: 200px;
-    }
-
-    .wd-tuiter
-    .wd-center-column {
-        width: 600px;
-    }
-
-    .wd-tuiter
-    .wd-right-column {
-        width: 400px;
-    }
+.wd-fg-lightgrey {
+    color: lightgray;
 }
 
-@media only screen and
-(min-width: 992px) and (max-width: 1199px)  {
-    .wd-tuiter {
-        width: 1100px;
-    }
 
-    .wd-nav .li {
-        text-align: center !important;
-    }
-
-    .wd-tuiter
-    .wd-left-column {
-        width: 88px;
-    }
-
-    .wd-nav
-    .wd-label{
-        display: none;
-    }
-
-    .wd-tuit-btn{
-        height: 40px;
-        font-size: 14px;
-    }
-
-    .wd-tuiter
-    .wd-center-column {
-        width: 700px;
-    }
-
-    .wd-tuiter
-    .wd-right-column {
-        width: 350px;
-    }
+.wd-post-image {
+    width: 100%;
+    height: 24em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--wd-light-grey);
+    border-radius: 1em;
 }
 
-@media only screen and
-(min-width: 768px) and (max-width: 991px)  {
-    .wd-tuiter {
-        width: 1000px;
-    }
 
-
-    .wd-tuiter
-    .wd-left-column {
-        width: 110px;
-    }
-
-    .wd-nav
-    .wd-label{
-        display: none;
-    }
-
-    .wd-tuit-btn{
-        height: 40px;
-        font-size: 16px;
-    }
-
-    .wd-tuiter
-    .wd-center-column {
-        width: 650px;
-    }
-
-    .wd-tuiter
-    .wd-right-column {
-        display: none;
-    }
+.wd-post-link-text {
+    max-width: 100%;
+    color: var(--wd-light-grey);
+    padding: 1em;
+    border-width: 1px;
+    border-top-width: 0;
+    border-style: solid;
+    border-color: var(--wd-light-grey);
+    border-radius: 0 0 1em 1em;
 }
 
-@media only screen and
-(min-width: 576px) and (max-width: 767px)  {
-    .wd-tuiter {
-        width: 800px;
-    }
+.wd-post-link-image {
+    border-radius: 1em 1em 0 0;
+}
 
+.wd-post-description {
+    color: gray;
+}
 
-    .wd-tuiter
-    .wd-left-column {
-        width: 90px;
-    }
+.wd-post-link-title{
+    color: white;
+}
 
-    .wd-nav
-    .wd-label{
-        display: none;
-    }
+.wd-post-interactions {
+    color: gray;
+    padding: 1em 0;
+}
 
-    .wd-tuit-btn{
-        height: 40px;
-        font-size: 14px;
-    }
+.wd-post-interactions div {
+    flex-basis: 100%;
+}
 
-    .wd-tuiter
-    .wd-center-column {
-        width: 560px;
-    }
+.wd-post-interactions i {
+    margin-right: 0.5em;
+}
 
-    .wd-tuiter
-    .wd-right-column {
-        display: none;
-    }
+.list-group-item.override-bs2{
+    background-color: black;
+    border-color: var(--wd-light-grey);
+    padding-top: 1em;
 }
