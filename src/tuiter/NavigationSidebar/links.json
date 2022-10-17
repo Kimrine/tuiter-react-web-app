@@ -1,0 +1,10 @@
+[
+  {"label": "Home", "icon": "fas fa-home", "href": "home.html", "path": "/tuiter/home"},
+  {"label": "Explore", "icon": "fas fa-hashtag ", "href": "explore.html", "path": "/tuiter/explore"},
+  {"label": "Notifications", "icon": "fas fa-bell", "href": "notifications.html", "path": "/tuiter/notifications"},
+  {"label": "Messages", "icon": "fas fa-inbox", "href": "messages.html", "path": "/tuiter/messages"},
+  {"label": "Bookmarks", "icon": "fas fa-bookmark ", "href": "bookmarks.html", "path": "/tuiter/bookmarks"},
+  {"label": "Lists", "icon": "fas fa-list-ul", "href": "lists.html", "path": "/tuiter/lists"},
+  {"label": "Profile", "icon": "fas fa-user", "href": "profile.html", "path": "/tuiter/profile"},
+  {"label": "More", "icon": "fa fa-ellipsis-h", "href": "more.html", "path": "/tuiter/more"}
+]
