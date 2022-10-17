@@ -6,8 +6,9 @@ import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowList from "./WhoToFollowList";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import '../vendors/bootstrap/css/bootstrap.min.css';
 import '../vendors/fontawesome/css/all.css';
+import '../vendors/bootstrap/css/bootstrap.min.css';
+
 import './index.css';
 
 function Tuiter() {
