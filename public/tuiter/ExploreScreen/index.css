@@ -56,7 +56,7 @@ body {
 
 .list-group-item.active{
     color: whitesmoke;
-    font-weight: bold;
+    background-color: dodgerblue;
 }
 
 
@@ -68,21 +68,11 @@ body {
     column-width: fill-available;
 }
 
-.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-    font-weight: bold;
-    border-width: 0 0 5px 0;
-    border-bottom : 5px solid dodgerblue;
-}
-
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: whitesmoke;
     font-weight: bold;
-    background-color: transparent;
-    border-width: 0 0 5px 0;
-    border-bottom : 5px solid dodgerblue;
+    background-color: dodgerblue;
+    border: none;
     flex-wrap: wrap;
     font-size: 16px;
     column-width: fill-available;

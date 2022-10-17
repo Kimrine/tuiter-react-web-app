@@ -11,11 +11,11 @@ const ExploreComponent = () => {
                 </div>
                 <div class="position-relative col-1 wd-middle">
                     <a href="explore-settings.html"><i
-                        class="fas fa-cog fa-stack-2x"style="color: whitesmoke"></i>
+                        class="fas fa-cog fa-stack-2x"style="color: dodgerblue"></i>
                     </a>
                 </div>
            </div>
-           <ul class="nav mb-2 nav-tabs">
+           <ul class="nav mb-2 nav-tabs mt-2">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">For you</a>
                 </li>

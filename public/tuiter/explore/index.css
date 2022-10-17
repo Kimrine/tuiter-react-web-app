@@ -56,7 +56,7 @@ body {
 
 .list-group-item.active{
     color: whitesmoke;
-    font-weight: bold;
+    background-color: dodgerblue;
 }
 
 
