@@ -249,6 +249,6 @@ body {
 
 .list-group-item.override-bs2{
     background-color: black;
-    border-color: var(--wd-light-grey);
+    border-color: darkgray;
     padding-top: 1em;
 }
