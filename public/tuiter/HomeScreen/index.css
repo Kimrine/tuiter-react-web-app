@@ -40,9 +40,8 @@ body {
 
 .list-group-item.active{
     color: whitesmoke;
-    font-weight: bold;
+    background-color: dodgerblue;
 }
-
 
 .nav-tabs .nav-link {
     background: 0 0;
@@ -250,6 +249,6 @@ body {
 
 .list-group-item.override-bs2{
     background-color: black;
-    border-color: var(--wd-light-grey);
+    border-color: darkgray;
     padding-top: 1em;
 }
