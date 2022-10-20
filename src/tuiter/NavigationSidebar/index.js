@@ -13,7 +13,7 @@ const NavigationSidebar = () => {
             <div className="list-group wd-font">
                 <Link to="/HomeScreen/index"
                       className="list-group-item override-bs list-group-item-action">
-                    <i className="fab fa-twitter fa-lg"/>
+                    <i className="bi bi-twitter"/>
                 </Link>
                 {links.map(link => {
                     return (<NavItem link={link} active={active}/>);

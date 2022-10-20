@@ -16,7 +16,7 @@ import ExploreScreen from "./ExploreScreen";
 
 function Tuiter() {
     return(
-        <div className="bg-black">
+        <div>
             <Nav/>
             <h1>Tuiter</h1>
             <div className="row mt-2">
