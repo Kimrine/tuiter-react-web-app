@@ -1,0 +1,120 @@
+[
+  {
+    "_id": "123",
+    "topic": "Web Development",
+    "author": {
+      "name": "ReactJS",
+      "handle": "ReactJS",
+      "profileImgSrc": "https://www.pinclipart.com/picdir/middle/537-5374089_react- js-logo-clipart.png"
+
+    },
+    "liked": true,
+    "verified": false,
+
+    "timeStamp": "2h",
+    "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "attachments": {
+      "video": "unKvMC3Y1kI"
+    },
+    "avatarimage": "../../../images/react-blue.png",
+    "interactionsCount": {
+      "replies": 123,
+      "retuits": 234,
+      "likes": 345
+    }
+  },
+  {
+    "_id": "567",
+    "topic": "Space",
+    "author": {
+      "handle": "spacex",
+      "name": "SpaceX",
+      "profileImgSrc": "https://cdn.mos.cms.futurecdn.net/J2NTP9Er4Ad3kRsms7XRoD.jpeg"
+    },
+    "liked": false,
+    "verified": false,
+
+    "title": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "attachments": {
+      "image": "https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg"
+
+    },
+    "timeStamp": "last month",
+    "avatarimage": "../../../images/node.png",
+    "tuits": "120K",
+    "interactionsCount": {
+      "replies": 123,
+      "retuits": 234,
+      "likes": 345
+    }
+  },
+  {
+    "_id": "234",
+    "topic": "Space",
+    "author": {
+      "handle": "DJSnM",
+      "profileImgSrc": "https://www.famousbirthdays.com/faces/manley-scott-image.jpg",
+      "name": "Scott Manley"
+    },
+    "liked": true,
+    "verified": true,
+
+    "postedOn": "2020-12-10",
+    "timeStamp": "1 day",
+    "title": "JavaScript is programming language that can run on browsers as well as desktops",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "avatarimage": "../../../images/js.png",
+    "tuits": "123K",
+    "interactionsCount": {
+      "replies": 123,
+      "retuits": 234,
+      "likes": 345
+    }
+  },
+  {
+    "_id": "345",
+    "topic": "Web Development",
+    "author": {
+      "handle": "jQuery",
+      "profileImgSrc": "https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png",
+      "name": "jQuery"
+    },
+    "liked": false,
+    "verified": false,
+
+    "title": "jQuery",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "timeStamp": "last week",
+    "avatarimage": "../../../images/jquery.png",
+    "tuits": "122K",
+    "interactionsCount": {
+      "replies": 123,
+      "retuits": 234,
+      "likes": 345
+    }
+  },
+  {
+    "_id": "456",
+    "topic": "Web Development",
+    "author": {
+      "handle": "NodeJS",
+      "profileImgSrc": "https://w7.pngwing.com/pngs/558/166/png-transparent-node-js-javascript-react-express-js-linux-foundation-mongodb-icons-angle-text-rectangle.png",
+      "name": "NodeJS"
+    },
+    "liked": true,
+    "verified": true,
+
+    "title": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "timeStamp": "last month",
+    "avatarimage": "../../../images/node.png",
+    "tuits": "120K",
+    "interactionsCount": {
+      "replies": 123,
+      "retuits": 234,
+      "likes": 345
+    }
+  }
+]

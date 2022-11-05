@@ -253,3 +253,11 @@ body {
     border-color: #212426;
     padding-top: 1em;
 }
+
+.wd-color-gray{
+    color: gray;
+}
+
+.wd-color-red{
+    color:red;
+}

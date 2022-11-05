@@ -7,7 +7,7 @@
 
         },
         "timeStamp": "2h",
-        "description": "Amazing show about @inspiration4x mission!",
+        "tuit": "Amazing show about @inspiration4x mission!",
         "link": {
             "previewImageSrc": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSTVj5DHrlahOykYCHrcwL63gTkGzcXodPQgvrJXFqQMFg4Ktgtxmh_fGFJbsMF9BwmIbdW4L17YdJejrxJNwqyEnAP-.jpg?r=3d5",
             "previewTitle": "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
@@ -15,10 +15,11 @@
             "baseUrl": "https://netflix.com"
         },
         "imageSrc":"",
+        "liked": false,
         "interactionsCount": {
-            "comments": "4.2K",
-            "retweets": "3.5K",
-            "likes": "37.5K"
+            "replies": 345,
+            "retuits": 123,
+            "likes": 1234
         }
     },
     {
@@ -34,12 +35,13 @@
             "baseUrl": ""
         },
         "timeStamp": "23h",
-        "description": "Grimes seen reading Karl Marx following split with world\"s richest man Elon Musk",
+        "tuit": "Grimes seen reading Karl Marx following split with world\"s richest man Elon Musk",
         "imageSrc": "https://nypost.com/wp-content/uploads/sites/2/2021/10/grimes-05.jpg?quality=90&strip=all",
+        "liked": false,
         "interactionsCount": {
-            "comments": "965",
-            "retweets": "2.4K",
-            "likes": "37.5K"
+            "replies": 123,
+            "retuits": 345,
+            "likes": 321
         }
     }
 ]
