@@ -1,16 +1,30 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
-import {createTuit}
-    from "../reducers/tuits-reducer";
+import { createTuitThunk } from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
-    let [whatsHappening, setWhatsHappening] = useState('');
+    const [newTuit, setNewTuit] = useState({tuit: 'New tuit'});
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
-        const newTuit = {
-            description: whatsHappening
+        const tuit = {
+            ...newTuit,
+            _id: (new Date()).getTime() + '',
+            postedBy: {
+                "username": "kimrine"
+            },
+            handle: "kimrine",
+            avatarImage: "https://pbs.twimg.com/profile_images/1374979417915547648/vKspl9Et_400x400.jpg",
+            liked: false,
+            disliked: false,
+            likes: 0,
+            dislikes: 0,
+            stats: {
+                retuits: 0,
+                comments: 0
+            }
         }
-        dispatch(createTuit(newTuit))
+        console.log(tuit);
+        dispatch(createTuitThunk(tuit))
     }
 
     return (
@@ -19,9 +33,13 @@ const WhatsHappening = () => {
                 <img src="jinx.jpg" width={60} className="rounded-5"/>
             </div>
             <div className="col-10">
-       <textarea value={whatsHappening} placeholder="What's happening?"
+       <textarea placeholder="What's happening?"
                  className="form-control border-0"
-                 onChange={(event) => setWhatsHappening(event.target.value)}>
+                 onChange={(event) =>
+                     setNewTuit(
+                         {...newTuit,
+                             tuit: event.target.value
+                         })}>
        </textarea>
                 <div>
                     <button className="rounded-pill btn btn-primary float-end mt-1 ps-3 pe-3 fw-bold"

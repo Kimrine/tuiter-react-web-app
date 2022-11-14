@@ -1,20 +1,19 @@
 import TuitStats from "./tuit-stats";
 import ShowPic from "./ShowPic";
 import {useDispatch} from "react-redux";
-import {deleteTuit}
-    from "../reducers/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitListItem = ({tuit}) => {
     const dispatch = useDispatch();
     const deleteTuitClickHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     };
 
     return(
         <>
             <div className="list-group-item override-bs2 wd-post-item d-flex">
                 <img
-                    src = {tuit.author.profileImgSrc}
+                    src = {tuit.avatarImage}
                     className = "wd-post-profileImg"
                 />
                 <div>
@@ -23,11 +22,11 @@ const TuitListItem = ({tuit}) => {
                             <i  onClick={() =>
                                 deleteTuitClickHandler(tuit._id)}
                                className="fas fa-times fa-pull-right wd-color-gray"/>
-                            <span className="wd-post-author">{tuit.author.name}</span>
-                            <span>  @{tuit.author.handle}</span>
-                            {`${tuit.timeStamp ? " · " + tuit.timeStamp : ""}`}
+                            <span className="wd-post-author">{tuit.postedBy.username}</span>
+                            <span>  @{tuit.handle}</span>
+                            {`${tuit.time ? " · " + tuit.time : ""}`}
                         </div>
-                        <p className="wd-post-description">{tuit.description}</p>
+                        <p className="wd-post-description">{tuit.tuit}</p>
                     </div>
                     {tuit.attachments && tuit.attachments.image &&
                      <ShowPic pic={tuit.attachments.image}/>
