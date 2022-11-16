@@ -4,10 +4,8 @@ import * as service
     from "./tuits-service"
 
 export const findTuitsThunk = createAsyncThunk(
-    'tuits/findTuits', async () =>{
-        return await service.findTuits()
-    }
-
+    'tuits/findTuits', async () =>
+        await service.findTuits()
 )
 
 export const deleteTuitThunk = createAsyncThunk(
