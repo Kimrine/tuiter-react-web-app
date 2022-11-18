@@ -18,6 +18,7 @@ const tuitsSlice = createSlice({
                                     [findTuitsThunk.fulfilled]:
                                         (state, { payload }) => {
                                             state.loading = false
+                                            console.log(payload)
                                             state.tuits = payload
                                         },
                                     [findTuitsThunk.rejected]:
@@ -33,6 +34,7 @@ const tuitsSlice = createSlice({
                                          (state, { payload }) => {
                                              state.loading = false
                                              state.tuits.push(payload)
+
                                          },
                                      [updateTuitThunk.fulfilled]:
                                          (state, { payload }) => {
@@ -46,7 +48,7 @@ const tuitsSlice = createSlice({
                                          }
 
 
-                                 },
+                                 }
                                    // reducers: {
                                    //      likeTuit(state, action) {
                                    //         const tuit = state.find((tuit)=> tuit._id === action.payload);
@@ -74,5 +76,5 @@ const tuitsSlice = createSlice({
                                    // }
                              });
 
-export const {likeTuit,deleteTuit,createTuit} = tuitsSlice.actions
+//export const {likeTuit,deleteTuit,createTuit} = tuitsSlice.actions
 export default tuitsSlice.reducer;

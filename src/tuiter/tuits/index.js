@@ -8,7 +8,7 @@ const TuitsList = () => {
     const {tuits, loading} = useSelector(state => state.tuitsData)
     const dispatch = useDispatch();
     useEffect(()=>{
-        dispatch(findTuitsThunk)
+        dispatch(findTuitsThunk())
     },[]);
     return(
         <div className="list-group wd-post-list mb-4">
@@ -19,7 +19,7 @@ const TuitsList = () => {
                 </li>
             }
             {
-                tuits.map && tuits.map(tuit =>
+                !loading && tuits.map && tuits.map(tuit =>
                     <TuitListItem key={tuit._id} tuit={tuit}/>)
             }
         </div>

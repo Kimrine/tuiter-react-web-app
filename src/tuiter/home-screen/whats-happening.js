@@ -23,7 +23,6 @@ const WhatsHappening = () => {
                 comments: 0
             }
         }
-        console.log(tuit);
         dispatch(createTuitThunk(tuit))
     }
 
