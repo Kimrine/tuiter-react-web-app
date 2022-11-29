@@ -8,7 +8,7 @@ const WhatsHappening = () => {
     const tuitClickHandler = () => {
         const tuit = {
             ...newTuit,
-            _id: (new Date()).getTime() + '',
+            //_id: (new Date()).getTime() + '',
             postedBy: {
                 "username": "kimrine"
             },
