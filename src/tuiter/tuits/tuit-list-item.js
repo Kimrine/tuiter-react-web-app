@@ -22,7 +22,7 @@ const TuitListItem = ({tuit}) => {
                             <i  onClick={() =>
                                 deleteTuitClickHandler(tuit._id)}
                                className="fas fa-times fa-pull-right wd-color-gray"/>
-                            <span className="wd-post-author">{tuit.postedBy.username}</span>
+                            <span className="wd-post-author">{tuit.postedBy}</span>
                             <span>  @{tuit.handle}</span>
                             {`${tuit.time ? " · " + tuit.time : ""}`}
                         </div>

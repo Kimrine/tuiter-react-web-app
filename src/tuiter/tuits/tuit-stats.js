@@ -41,11 +41,11 @@ const TuitStats = ({tuit}) => {
         <div className="wd-color-gray row mt-3">
             <span className="col">
                 <i className="far fa-comment me-2"/>
-                {tuit.stats && tuit.stats.comments}
+                {tuit.comments}
             </span>
             <span className="col">
                 <i className="fas fa-retweet me-2"/>
-                {tuit.stats && tuit.stats.retuits}
+                {tuit.retuits}
             </span>
             <span onClick={() => likeTuit(tuit)} className="col">
                 {

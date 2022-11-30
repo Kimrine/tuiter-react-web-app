@@ -9,19 +9,16 @@ const WhatsHappening = () => {
         const tuit = {
             ...newTuit,
             //_id: (new Date()).getTime() + '',
-            postedBy: {
-                "username": "kimrine"
-            },
+            postedBy: "kimrine",
             handle: "kimrine",
             avatarImage: "https://pbs.twimg.com/profile_images/1374979417915547648/vKspl9Et_400x400.jpg",
             liked: false,
             disliked: false,
             likes: 0,
             dislikes: 0,
-            stats: {
-                retuits: 0,
-                comments: 0
-            }
+            retuits: 0,
+            comments: 0
+
         }
         dispatch(createTuitThunk(tuit))
     }
